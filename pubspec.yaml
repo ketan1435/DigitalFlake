@@ -1,0 +1,48 @@
+name: flutter_task
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sizer: ^2.0.15
+  get: ^4.6.5
+  http: ^1.1.0
+  intl: ^0.18.1
+  get_storage: ^2.1.1
+  jwt_decoder: ^2.0.1
+  connectivity_plus: ^5.0.2
+  lottie:
+  google_fonts: ^6.1.0
+  date_picker_timeline: ^1.2.5
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/animations/
+
